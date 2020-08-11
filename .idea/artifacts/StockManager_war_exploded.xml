@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="StockManager:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/StockManager_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="StockManager/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="StockManager" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
