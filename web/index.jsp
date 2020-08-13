@@ -22,14 +22,15 @@
 
 <body>
 
-<nav class = "navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <a href="#" class="navbar-brand">Stock Manager</a>
 
     <div class="collapse navbar-collapse navCollapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Historia</a></li>
+        <li><a href="#">Show room</a></li>
+        <li><a href="#">Panel admina</a></li>
       </ul>
     </div>
 
