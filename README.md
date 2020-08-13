@@ -20,3 +20,19 @@ Here I will be going to add all of my work updates.<br/>
 2. Added Font Awesome
 3. Added Font Cuprum
 4. Added First prototype of layout of start page
+
+<br/>
+
+<b>13.08.2020</b> - Added Subpages and fragments JSPF<br/>
+
+1. Added Subpages
+2. Added Style for other subpages
+3. Added Popup form
+
+<br/>
+
+<b>14.08.2020</b> - Added second gen layout<br/>
+
+1. Added Bikes img
+2. Added Info section
+3. Added Added new CSS classes like .imbike
