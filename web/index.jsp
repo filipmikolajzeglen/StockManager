@@ -10,43 +10,17 @@
          pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Stock Manager</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Cuprum&amp;display=swap" rel="stylesheet">
-  <link href="css/all.css" rel="stylesheet">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/styles.min.css" rel="stylesheet">
-</head>
+<jsp:include page="/WEB-INF/fragments/head.jspf"/>
 
 <body>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <a href="#" class="navbar-brand">Stock Manager</a>
-
-    <div class="collapse navbar-collapse navCollapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Historia</a></li>
-        <li><a href="#">Show room</a></li>
-        <li><a href="#">Panel admina</a></li>
-      </ul>
-    </div>
-
-    <button class="navbar-toggle" data-toggle="collapse" data-target=".navCollapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-
-  </div>
-</nav>
+<jsp:include page="/WEB-INF/fragments/header.jspf"/>
 
 <div class="container">
 
   <div class="container">
     <div class="jumbotron">
-      <h1><a href="#"><i class="fas fa-plus-circle"></i></a></h1>
+      <h1><a href="add.jsp"><i class="fas fa-plus-circle"></i></a></h1>
     </div>
   </div>
 
@@ -109,15 +83,7 @@
 
 </div>
 
-<footer class="navbar navbar-default navbar-static-bottom">
-  <div class="container">
-    <p class="navbar-text">StockManager - developed by <a href="https://github.com/filipmikolajzeglen">Filip Mikołaj Żegleń</a></p>
-  </div>
-</footer>
-
-<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
+<%@ include file="/WEB-INF/fragments/footer.jspf" %>
 
 </body>
 </html>

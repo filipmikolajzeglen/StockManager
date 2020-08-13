@@ -1,0 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<footer class="navbar navbar-default navbar-static-bottom">
+    <div class="container">
+        <p class="navbar-text">StockManager - developed by <a href="https://github.com/filipmikolajzeglen">Filip Mikołaj Żegleń</a></p>
+    </div>
+</footer>
+
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
