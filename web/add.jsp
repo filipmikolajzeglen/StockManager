@@ -34,12 +34,12 @@
                     <input placeholder="Rozmiar" type="text" name="size" class="inputStyle">
                     <br>
                     <input placeholder="Opis" type="text" name="description" class="inputStyle">
-                    <br><br>
-                    <div class="choiceStyle">
-                        Szukaj: <input type="radio" name="option" value="search"><br>
-                        Dodaj: <input type="radio" name="option" value="add"><br>
-                        Modyfikuj: <input type="radio" name="option" value="update"><br>
-                        Usuń: <input type="radio" name="option" value="delete"><br>
+                    <br>
+                    <div  style="margin-top:10px;">
+                        Szukaj: <input type="radio" name="option" value="search" style="margin-right:12px;">
+                        Dodaj: <input type="radio" name="option" value="add" style="margin-right:12px;">
+                        Modyfikuj: <input type="radio" name="option" value="update" style="margin-right:12px;">
+                        Usuń: <input type="radio" name="option" value="delete" style="margin-right:12px;">
                     </div>
                     <br>
                     <input type="submit" value="Wyślij" class="buttonStyle">

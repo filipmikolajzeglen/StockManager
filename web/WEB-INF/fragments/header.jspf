@@ -6,6 +6,7 @@
 
         <div class="collapse navbar-collapse navCollapse">
             <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.jsp">Stock</a></li>
                 <li><a href="history.jsp">Historia</a></li>
                 <li><a href="showroom.jsp">Show room</a></li>
                 <li><a href="admin.jsp">Panel admina</a></li>
