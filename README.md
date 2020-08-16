@@ -36,3 +36,9 @@ Here I will be going to add all of my work updates.<br/>
 1. Added Bikes img
 2. Added Info section
 3. Added Added new CSS classes like .imbike
+
+<br/>
+
+<b>15.08.2020</b> - Fixed broken SQL queries <br/>
+
+1. Fixed BikeServlet
