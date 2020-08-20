@@ -1,25 +1,49 @@
 <%--
   Created by IntelliJ IDEA.
   User: Kratos
-  Date: 19.08.2020
-  Time: 23:20
+  Date: 13.08.2020
+  Time: 23:50
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+
+<%@ page language="java"
+         contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
-<!DOCTYPE html">
+<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Zaloguj się</title>
-</head>
+<jsp:include page="/WEB-INF/fragments/head.jspf"/>
+
 <body>
-<h1>Zaloguj się</h1>
+
+<jsp:include page="/WEB-INF/fragments/header.jspf"/>
+
+<div class="container">
+
+<div class="container">
+<div class="jumbotron">
+<h1>LOGOWANIE</h1>
+</div>
+</div>
+
+<div class="row">
+<div class="tabContent">
+<form action="BikeServlet" method="post">
+<div class="dataStyle">
 <form action="j_security_check" method="post">
-Login: <input type="text" name="j_username">
+<input type="text" placeholder="Login" name="j_username" class="inputStyle">
 <br>
-Password: <input type="password" name="j_password">
-<input type="submit" value="Zaloguj">
+<input type="password" placeholder="Hasło" name="j_password" class="inputStyle">
 </form>
+<br>
+<input type="submit" value="Zaloguj" class="buttonStyle">
+</div>
+</form>
+</div>
+</div>
+
+</div>
+
+<%@ include file="/WEB-INF/fragments/footer.jspf" %>
+
 </body>
 </html>
