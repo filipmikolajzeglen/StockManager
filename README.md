@@ -42,3 +42,9 @@ Here I will be going to add all of my work updates.<br/>
 <b>15.08.2020</b> - Fixed broken SQL queries <br/>
 
 1. Fixed BikeServlet
+
+<br/>
+
+<b>19.08.2020</b> - Added test users and admins <br/>
+
+1. Added login page
