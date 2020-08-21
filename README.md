@@ -48,3 +48,10 @@ Here I will be going to add all of my work updates.<br/>
 <b>19.08.2020</b> - Added test users and admins <br/>
 
 1. Added login page
+
+<br/>
+
+<b>20.08.2020</b> - Added new styles <br/>
+
+1. Added style to login page
+
