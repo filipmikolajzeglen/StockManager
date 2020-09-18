@@ -1,6 +1,6 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Kratos
+  User: Filip Mikołaj Żegleń (Kratos)
   Date: 13.08.2020
   Time: 23:50
   To change this template use File | Settings | File Templates.
@@ -9,11 +9,46 @@
          pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Panel administracyjny</title>
-</head>
+<jsp:include page="/WEB-INF/fragments/head.jspf"/>
+
 <body>
-<h1>Witaj w panelu administracyjnym</h1>
+
+<jsp:include page="/WEB-INF/fragments/header.jspf"/>
+
+<div class="container">
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Panel admina</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="tabContent">
+            <form action="AdminServlet" method="post">
+                <div class="dataStyle">
+                    <input placeholder="Nazwa" type="text" name="name" class="inputStyle">
+                    <br>
+                    <input placeholder="Rozmiar" type="text" name="size" class="inputStyle">
+                    <br>
+                    <input placeholder="Opis" type="text" name="description" class="inputStyle">
+                    <br>
+                    <div  style="margin-top:10px;">
+                        Szukaj: <input type="radio" name="option" value="search" style="margin-right:12px;">
+                        Dodaj: <input type="radio" name="option" value="add" style="margin-right:12px;">
+                        Modyfikuj: <input type="radio" name="option" value="update" style="margin-right:12px;">
+                        Usuń: <input type="radio" name="option" value="delete" style="margin-right:12px;">
+                    </div>
+                    <br>
+                    <input type="submit" value="Wyślij" class="buttonStyle">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<%@ include file="/WEB-INF/fragments/footer.jspf" %>
+
 </body>
 </html>

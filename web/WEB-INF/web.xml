@@ -5,8 +5,12 @@
          version="4.0">
 
 <display-name>Logowanie</display-name>
+    <servlet>
+        <servlet-name>AdminServlet</servlet-name>
+        <servlet-class>pl.filipzeglen.controller.AdminServlet</servlet-class>
+    </servlet>
 
-<welcome-file-list>
+    <welcome-file-list>
 <welcome-file>index.jsp</welcome-file>
 </welcome-file-list>
 
