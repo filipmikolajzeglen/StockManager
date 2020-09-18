@@ -9,6 +9,10 @@
         <servlet-name>AdminServlet</servlet-name>
         <servlet-class>pl.filipzeglen.controller.AdminServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>NewUserServlet</servlet-name>
+        <servlet-class>pl.filipzeglen.controller.NewUserServlet</servlet-class>
+    </servlet>
 
     <welcome-file-list>
 <welcome-file>index.jsp</welcome-file>
